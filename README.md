@@ -8,3 +8,12 @@ Portfolio of data analysis projects.
 * Created "one-stop" API-based dashboard to read key market indexes
 * Client-facing dashboard generated in Excel by request
 * Data displayed as line graph, exportable records contained in each tab
+
+
+## Project 2: Recipe Database
+
+![recipe_db](https://user-images.githubusercontent.com/94941359/230518567-d7462e34-6423-4889-899c-43301b0f3c1a.png)
+
+* Database containing all meals I've made in the last year
+* Lists ingredients, side dishes, date last made, etc.
+* Serves as centralized location for all meal prep, offering insights into diet and lifestyle
