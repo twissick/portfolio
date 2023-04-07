@@ -7,3 +7,4 @@ Portfolio of data analysis projects.
 
 * Created "one-stop" API-based dashboard to read key market indexes
 * Client-facing dashboard generated in Excel by request
+* Data displayed as line graph, exportable records contained in each tab
