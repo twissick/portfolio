@@ -14,6 +14,6 @@ Portfolio of data analysis projects.
 
 ![recipe_db](https://user-images.githubusercontent.com/94941359/230518625-28d23e2a-5c78-466a-82ba-26b1eef9c87d.png)
 
-* Database containing all meals I've made in the last year
+* Used PostgreSQL to model and create database containing all meals I've made in the last year
 * Lists ingredients, side dishes, date last made, etc.
 * Serves as centralized location for all meal prep, offering insights into diet and lifestyle
