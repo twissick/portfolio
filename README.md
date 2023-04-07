@@ -1,6 +1,6 @@
 # Data Analysis: Work and Play
 
-Hello, and welcome! My name is TJ, and I have a passion for all things data. As a burgeoning data analyst, I strive to apply data-driven thinking to all aspects of my life, both work and play. Below, you'll see a cross-section of some projects showcasing the growth of my talents as I continue to develop!
+Hello, and welcome! My name is TJ, and I have a passion for all things data. As a burgeoning data analyst, I strive to apply data-driven thinking to all aspects of my life, both work and play. Below, you'll see a cross-section of some projects showcasing my data analysis skills (and a few of my hobbies).
 
 ## [Project 1: Basic API Dashboard](https://github.com/twissick/portfolio/blob/main/index_dashboard.xlsm)
 
