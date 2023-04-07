@@ -10,6 +10,7 @@ Portfolio of data analysis projects.
 * Data displayed as line graph, exportable records contained in each tab
 
 
+
 ## Project 2: Recipe Database
 
 I decided I wanted a better way to keep track of the food I ate. I was tired of looking for a new meal each week while wondering what I'd eaten, liked, or disliked. The result is what you see below: a database of all my recipes!
@@ -19,3 +20,12 @@ I decided I wanted a better way to keep track of the food I ate. I was tired of 
 * Used PostgreSQL to model and create database containing all meals I've made in the last year
 * Lists ingredients, side dishes, date last made, etc.
 * Serves as centralized location for all meal prep, offering insights into diet and lifestyle
+
+
+
+## Project 3: IBM Analytics Capstone — EDA with Data Visualization
+
+![capstone](https://user-images.githubusercontent.com/94941359/230519341-d98b92c7-8b79-47f4-ba26-110fd73e338f.png)
+
+* Used Python pandas, matplotlib, and seaborn to generate graphs exploring SpaceX landings and launches
+* Explored success rates of various orbit types, as well as trends over time
