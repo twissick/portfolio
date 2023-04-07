@@ -12,7 +12,7 @@ Portfolio of data analysis projects.
 
 ## Project 2: Recipe Database
 
-![recipe_db](https://user-images.githubusercontent.com/94941359/230518567-d7462e34-6423-4889-899c-43301b0f3c1a.png)
+![recipe_db](https://user-images.githubusercontent.com/94941359/230518625-28d23e2a-5c78-466a-82ba-26b1eef9c87d.png)
 
 * Database containing all meals I've made in the last year
 * Lists ingredients, side dishes, date last made, etc.
