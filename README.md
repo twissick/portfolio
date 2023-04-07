@@ -1,7 +1,7 @@
 # portfolio
 Portfolio of data analysis projects.
 
-## Project 1: Basic API Dashboard
+## [Project 1: Basic API Dashboard](https://github.com/twissick/portfolio/blob/main/index_dashboard.xlsm)
 
 ![dashboard](https://user-images.githubusercontent.com/94941359/230518289-05d9f005-51d8-4f23-95e8-24edd095775a.png)
 
