@@ -35,7 +35,7 @@ I decided I wanted a better way to keep track of the food I ate. I was tired of 
 
 Full disclosure — I really like Magic: The Gathering. I decided to build a small JupyterLab-based API that will let me query CSV files of cards to build or edit decks.
 
-![mtg_api](https://user-images.githubusercontent.com/94941359/230519619-c2f270ca-7b0e-4ed5-923b-f41245ae45d8.png)
+![mtg_api](https://user-images.githubusercontent.com/94941359/230789851-830e946c-6278-4300-aee5-023fbb8a53f1.png)
 
 * Used Python to query Magic: The Gathering API service against cards in a CSV list
 * Explored card prices as preliminary investigation in tracking trends
