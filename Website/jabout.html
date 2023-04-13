@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="TJ Wissick">
+        <meta name="description" content="English Japanese Translation">
+        <meta name="keywords" content="translation,interpretation,editing,revising,quotes">
+        <title>Zenpo Translations</title>
+        <link href="StyleSheet.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        
+    <!--image credit: http://getwallpapers.com/wallpaper/full/6/d/0/109363.jpg// --> 
+        <style>
+      
+    body {
+    font-family: Calibri, sans-serif;
+    font-size: 14pt;
+    color: white;
+    background-image:url("newbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+                
+    }
+ 
+            
+            table, td, th {
+                text-align:left;
+                
+            }       
+        </style>
+
+    </head>
+    
+     <body>
+
+
+        
+<div class="topnav sticky">
+        
+        <a href="resume.html">履歴書</a>        
+        <a href="portfolio.html">サンプル</a>
+        <a href="jservices.html">サービス</a>
+        <a class="active" href="jabout.html">会社概要</a>
+        <a href="jhomepage.html">ホーム</a>
+        <a style="float:left;" href="about.html">English</a>
+        <a class="active" style="float:left" href="jabout.html">日本語</a>
+        </div>
+        
+             <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+         <br>
+         
+         
+ <table style="padding: 0px 0px 30px;">
+         <td><img src="images/profile.jpg" style="max-height: 75%; max-width: 75%;margin-left:10%;  border-radius:20px;"></td>
+         
+    <td style="width:50%; background:RGBA(0,0,0,0.4);border-radius:20px; padding:10px 30px;">
+        <h1 style="text-align:center;font-size:40px;"><strong>会社概要</strong></h1>
+   「前歩翻訳」は２０１９年にケント州立大学の世界有数の翻訳修士プログラムを卒業したT.J. Wissickによって設立されました。当大学院へ進学する以前、T.J.は数年間北海道に住み、日本文化を深く理解する上で日本語への関心がより高まりました。前歩翻訳では、どのような翻訳でも心を込めて質の高いサービスを提供します。「前歩」とは、そもそも日本語の言葉ではなく、我が社がミッションを明確に表現できるための造語です。意味は、「前の一歩」で、「前への一歩」と「今より前の一歩」の両方の意味があります。したがって、「前の一歩」とは、これより絶えず改善することと共に、これより前に得た知識を生かして働きかけることです。<br><br>
+
+        我が社にとって、<u>お客様</u>が第一です。優れた技術と細心の注意を払って目標言語にも効率的に機能できるよう、務めさせていただきます。
+        <br><br>
+        前歩翻訳は、どんなプロジェクトでも全力投球で取り組みます。翻訳の先端技術　（SDL TRADOS 2017など）や文化に関する知識も十分あり、スリム化したプロセスには比類ない質と最大効率を保証します。もっと知りたい方は、サンプルをご覧ください。
+    </td>
+         
+         </table> 
+         <br>
+         <br>
+ 
+<table style="width:100%; height:200px; border-radius:20px; background:RGBA(81,32,130,0.8); font-size:18px;">
+
+    <tr>
+        <td style="text-align:center;"><a href="mailto:t.wissick@gmail.com?subject=Information Request">Contact Us</a></td>  
+            <td style=text-align:center;>&copy;2019 Zenpo Translations</td>
+            <td style=text-align:center;><a href="jabout.html" > About </a><br>
+                <a href="jservices.html" > Services </a>
+                <br>
+                <a href="jclients.html"> Clients </a>
+                <br>
+                <a href="jportfolio.html"> Portfolio </a><br>
+                <a href="resume.html"> Resume </a>
+            
+            </td>
+        </tr>
+       </table>
+        
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    
+   
+</script>
+
+        <script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+        
+    </body>
+</html>

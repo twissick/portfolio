@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="TJ Wissick">
+        <meta name="description" content="English Japanese Translation">
+        <meta name="keywords" content="translation,interpretation,editing,revising,quotes">
+        <title>Zenpo Translations</title>
+        <link href="StyleSheet.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        
+    <!--image credit: http://getwallpapers.com/wallpaper/full/6/d/0/109363.jpg// --> 
+        <style>
+      
+    body {
+    font-family: Calibri, sans-serif;
+    font-size: 14pt;
+    color: white;
+    background-image:url("newbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+                
+    }
+            
+            table, td, th {
+                text-align:center;
+                
+            }       
+        </style>
+
+    </head>
+    
+    <body>
+
+
+        
+<div class="topnav sticky">
+        
+        <a href="resume.html">Resume</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a class="active" href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="homepage.html">Home</a>
+        <a class="active" style="float:left;" href="services.html">English</a>
+        <a style="float:left" href="jservices.html">日本語</a>
+        </div>
+        
+             <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<table style="width:100%; height:200px; background:RGBA(0,0,0,0.5);">             
+    <td><h1 style="text-align:center;font-size:60px;"><strong>Services</strong></h1></td> 
+        </table>   
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Translation')" id="defaultOpen">Translation</button>
+  <button class="tablinks" onclick="openCity(event, 'Interpreting')">Interpreting</button>
+  <button class="tablinks" onclick="openCity(event, 'Editing')">Editing and Revising</button>
+</div>
+
+<div id="Translation" class="tabcontent">
+  <h3>Translation</h3>
+  <p>With years of practical experience and formal training, Zenpo Translations generates each translation with your target audience, intended purpose, and marketing goals in mind.</p><br>
+    
+    <a href="mailto:t.wissick@gmail.com?subject=Translation Quote" class="button" style="text-decoration:none;"><span>Request a Quote</span></a>
+  
+</div>
+
+<div id="Interpreting" class="tabcontent">
+  <h3>Interpreting</h3>
+  <p>Zenpo Translations also has experience with interpretation, the interlinguistic translation of spoken words. With us, you can always expect quality, discretion, and professionalism, no matter the assignment.</p><br>
+    
+    <a href="mailto:t.wissick@gmail.com?subject=Interpreting Quote" class="button" style="text-decoration:none;"><span>Request a Quote</span></a> 
+</div>
+
+<div id="Editing" class="tabcontent">
+  <h3>Editing and Revising</h3>
+  <p>Want a second look at your finished product? Look no further. Zenpo Translations is well acquainted with timely, constructive feedback and revision of whatever project you’ve got in the pipeline. </p><br>
+    
+    <a href="mailto:t.wissick@gmail.com?subject=Editing/Revising Quote" class="button" style="text-decoration:none;"><span>Request a Quote</span></a>
+</div>
+
+        <br>
+        <br>
+        <br>
+    
+<table style="width:100%; height:200px; text-align:center; border-radius:20px; background:RGBA(81,32,130,0.8); font-size:18px;">
+
+    <tr>
+        <td><a href="mailto:t.wissick@gmail.com?subject=Information Request">Contact Us</a></td>  
+            <td>&copy;2019 Zenpo Translations</td>
+            <td><a href="about.html" > About </a><br>
+                <a href="services.html" > Services </a>
+                <br>
+                <a href="clients.html"> Clients </a>
+                <br>
+                <a href="portfolio.html"> Portfolio </a><br>
+                <a href="resume.html"> Resume </a>
+            
+            </td>
+        </tr>
+       </table>
+    
+    
+
+         
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    
+   
+</script>
+
+        <script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+        
+    </body>
+</html>

@@ -1,0 +1,311 @@
+<head>
+<meta charset="UTF-8">
+<title>Embedded Style Sheet</title>
+<style type="text/css">
+  
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius:10px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: 0.6s;
+}
+
+.topnav a.active {
+  background-color: #2D7695;
+  color: white;
+}
+    .game {
+        
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        position: relative;
+        background-image: url("images/controller.jpg");
+        border-radius:10px;
+        transition: all .2s ease-in-out;
+    }
+    
+     .patent {
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        position: relative;
+        background-image: url("images/patent.jpg");
+        border-radius:10px;
+        transition: all .2s ease-in-out;
+    }
+    
+    .book {
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        position: relative;
+        background-image: url("images/book.jpeg");
+        border-radius:10px;
+        transition: all .2s ease-in-out;
+        
+    }
+    
+    .tech {
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        position: relative;
+        background-image: url("images/tech.jpg");
+        border-radius:10px;
+        transition: all .2s ease-in-out;
+    }
+
+.tech, .patent, .book, .game{}
+
+    .column {
+        margin-left: 25px;
+        float: left;
+        width: 25vm;
+        padding: 20px;        
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: flex;
+    }
+
+
+
+
+.flip-card{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+    
+.flip-card-inner {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background: linear-gradient(to bottom, RGBA(81,32,130,0.6), RGBA(72,72,72,1));
+    color: white;
+    transform: rotateY(180deg);
+    float: left;
+    border-radius:10px;
+    
+}
+    .button {
+        background-color: #00506D;
+        border: 1px solid black;
+        color: white;
+        font-weight:bold;
+        padding: 16px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 1px 1px;
+        transition-duration: 0.4s all;
+        cursor: pointer;
+        border-radius:10px;
+    }
+    
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+        
+        
+        h4 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 4px 8px;
+  color: white;
+  margin: 0;
+  font: 14px Sans-Serif;
+        
+    }
+    
+    h1 {
+  font-size: 12px;
+  text-align: right;
+        color:white;
+}
+    
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index:99;
+  top: 0;
+  padding: 10px;
+  
+    
+}
+
+
+
+    
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: #87C9EB;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+                
+    }
+    
+    #myBtn:hover {
+        background-color: #555;
+        
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  background-color: #333;
+  width:90%;
+  margin-left:50px;
+    
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+ 
+  border: none;
+  outline: none;
+  margin-left: 2%;
+  min-width:30%;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color:white;
+  font-size: 20px;
+  transition: 0.4s;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  float:center;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+ background-color: #ddd;
+ color:black;
+  }
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:RGBA(45,118,149,1.0);
+    color:white;
+    
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 20px 80px 30px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  background:RGBA(45,118,149,1.0);
+  overflow:hidden;
+    width:90%;
+  float:center;
+  margin-left:50px;
+}
+
+.source{
+    text-align:right;
+    
+}
+    
