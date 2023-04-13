@@ -40,3 +40,13 @@ Full disclosure — I really like Magic: The Gathering. I decided to build a Pyt
 * Used Python to query Magic: The Gathering API service against cards in a CSV list
 * Explored card prices as preliminary investigation in tracking trends
 * Integrating all decks into a Power BI dashboard that will let me track trends across several card collections
+
+## [Project 5: Translation Website](https://github.com/twissick/portfolio/blob/main/Website/homepage.html)
+
+I hold a Master's Degree in Translation Studies. One key part of this industry is marketing yourself, and in seeking to do so, I built my own website.
+
+![website_cap](https://user-images.githubusercontent.com/94941359/231890450-8f77bf81-de88-4b90-a1e0-683b3c02eae3.png)
+
+* Small portfolio of translation projects included
+* Website also includes contact forms and links to popular social media
+* Dynamic buttons and objects give website a robust and professional feel
