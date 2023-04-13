@@ -7,7 +7,7 @@ Hello, and welcome! My name is TJ, and I have a passion for all things data. As 
 ![dashboard](https://user-images.githubusercontent.com/94941359/230518289-05d9f005-51d8-4f23-95e8-24edd095775a.png)
 
 * Created "one-stop" API-based dashboard to read key market indexes
-* Data displayed as line graph, exportable records contained in each tab
+* Each tab contains exportable records for report building
 
 
 
@@ -20,6 +20,7 @@ I decided I wanted a better way to keep track of the food I ate. I was tired of 
 * Used PostgreSQL to model and create database containing all meals I've made in the last year
 * Lists ingredients, side dishes, date last made, etc.
 * Serves as centralized location for all meal prep, offering insights into diet and lifestyle
+* Soon to be integrated into Power BI dashboard to better interface with and visualize information
 
 
 
@@ -32,11 +33,10 @@ I decided I wanted a better way to keep track of the food I ate. I was tired of 
 
 ## [Project 4: Magic: The Gathering API Exploration](https://github.com/twissick/portfolio/blob/main/MTG_API_Investigation.ipynb)
 
-Full disclosure — I really like Magic: The Gathering. I decided to build a small JupyterLab-based API that will let me query CSV files of cards to build or edit decks.
+Full disclosure — I really like Magic: The Gathering. I decided to build a Python API query that will let me read a dataframe into Power BI for visualization.
 
-![mtg_api](https://user-images.githubusercontent.com/94941359/230789958-ec440bec-02a5-4bca-a421-399545bcbb3d.png)
+![mtg_api](https://user-images.githubusercontent.com/94941359/231886464-6e9954fa-ad4c-4024-b9e9-0ea781ef5cbb.png)
 
 * Used Python to query Magic: The Gathering API service against cards in a CSV list
 * Explored card prices as preliminary investigation in tracking trends
-* Slowly expanding capability by reading out results in CSV or directly into PostgreSQL
 * Integrating all decks into a Power BI dashboard that will let me track trends across several card collections
