@@ -31,7 +31,7 @@ I decided I wanted a better way to keep track of the food I ate. I was tired of 
 * Used Python pandas, matplotlib, and seaborn to generate graphs exploring SpaceX landings and launches
 * Explored success rates of various orbit types, as well as trends over time
 
-## [Project 4: Magic: The Gathering API Exploration](https://github.com/twissick/portfolio/blob/main/MTG_API_Investigation.ipynb)
+## [Project 4 (pt. 1): Magic: The Gathering API Exploration](https://github.com/twissick/portfolio/blob/main/MTG_API_Investigation.ipynb)
 
 Full disclosure — I really like Magic: The Gathering. I decided to build a Python API query that will let me read a dataframe into Power BI for visualization.
 
@@ -40,6 +40,17 @@ Full disclosure — I really like Magic: The Gathering. I decided to build a Pyt
 * Used Python to query Magic: The Gathering API service against cards in a CSV list
 * Explored card prices as preliminary investigation in tracking trends
 * Integrating all decks into a Power BI dashboard that will let me track trends across several card collections
+
+## [Project 4 (pt. 2): Magic: The Gathering Dashboard](https://github.com/twissick/portfolio/blob/main/mtg_dashboard.pbix)
+
+As an extension of my initial Python exploration of MTG datasets, I created a Power BI dashboard that gives me visualized insights into my own deck building.
+
+![mtg_dashboard](https://user-images.githubusercontent.com/94941359/232255799-5745e9a7-26ad-4fe5-b292-a754c28c4119.png)
+
+* Visualized wording trends in card text using word cloud
+* Tracking card prices based on distinct printings used in different decks
+* Check overall deck composition based on theme
+* I may eventually integrate a way to track price history by determining price of card when purchased vs. current price
 
 ## [Project 5: Translation Website](https://github.com/twissick/portfolio/blob/main/Website/homepage.html)
 
