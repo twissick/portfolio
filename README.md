@@ -45,7 +45,7 @@ Full disclosure — I really like Magic: The Gathering. I decided to build a Pyt
 
 As an extension of my initial Python exploration of MTG datasets, I created a Power BI dashboard that gives me visualized insights into my own deck building.
 
-![mtg_dashboard](https://user-images.githubusercontent.com/94941359/232255799-5745e9a7-26ad-4fe5-b292-a754c28c4119.png)
+![mtg_dashboard](https://user-images.githubusercontent.com/94941359/232255847-116ab435-d3de-4e46-901f-0270f411ce18.png)
 
 * Visualized wording trends in card text using word cloud
 * Tracking card prices based on distinct printings used in different decks
