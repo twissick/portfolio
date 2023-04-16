@@ -4,7 +4,7 @@ Hello, and welcome! My name is TJ, and I have a passion for all things data. As 
 
 ## [Project 1: Basic API Dashboard](https://github.com/twissick/portfolio/blob/main/index_dashboard.xlsm)
 
-![dashboard](https://user-images.githubusercontent.com/94941359/230518289-05d9f005-51d8-4f23-95e8-24edd095775a.png)
+<kbd>![dashboard](https://user-images.githubusercontent.com/94941359/230518289-05d9f005-51d8-4f23-95e8-24edd095775a.png)</kbd>
 
 * Created "one-stop" API-based dashboard to read key market indexes
 * Each tab contains exportable records for report building
@@ -45,7 +45,7 @@ Full disclosure — I really like Magic: The Gathering. I decided to build a Pyt
 
 As an extension of my initial Python exploration of MTG datasets, I created a Power BI dashboard that gives me visualized insights into my own deck building.
 
-![mtg_dashboard](https://user-images.githubusercontent.com/94941359/232255847-116ab435-d3de-4e46-901f-0270f411ce18.png)
+<kbd>![mtg_dashboard](https://user-images.githubusercontent.com/94941359/232255847-116ab435-d3de-4e46-901f-0270f411ce18.png)</kbd>
 
 * Visualized wording trends in card text using word cloud
 * Tracking card prices based on distinct printings used in different decks
