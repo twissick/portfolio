@@ -56,7 +56,7 @@ As an extension of my initial Python exploration of MTG datasets, I created a Po
 
 I hold a Master's Degree in Translation Studies. One key part of this industry is marketing yourself, and in seeking to do so, I built my own website.
 
-![website_cap](https://user-images.githubusercontent.com/94941359/231890450-8f77bf81-de88-4b90-a1e0-683b3c02eae3.png)
+<kbd>![website_cap](https://user-images.githubusercontent.com/94941359/231890450-8f77bf81-de88-4b90-a1e0-683b3c02eae3.png)</kbd>
 
 * Small portfolio of translation projects included
 * Website also includes contact forms and links to popular social media
