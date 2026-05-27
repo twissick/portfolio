@@ -29,7 +29,7 @@ As an extension of my initial Python exploration of MTG datasets, I created a Po
 
 More disclosure time. I like Pokémon, too. I'm not very good at battles, but I love fishing for new, strange, unique, or unexpected builds that catch my opponents off guard. I put together this spreadsheet tool using Power Query, PokéAPI, and Microsoft Excel to find and filter Pokémon by moves, type, and ability to make interesting Pokémon Champions teams.
 
-<kbd>![dexcel](<img width="2412" height="778" alt="image" src="https://github.com/user-attachments/assets/5e5f688c-3bbe-4bdb-8586-6f4b99fc5563" />)</kbd>
+<img width="2412" height="778" alt="Image" src="https://github.com/user-attachments/assets/fcdb3f43-461b-440d-adef-abc9b8cd6eba" />
 
 * Loaded and transformed data from raw GitHub data using Power Query
 * Performed joins across datasets to determine Pokémon legal in Champions and the moves they can learn
