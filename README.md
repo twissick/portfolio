@@ -27,7 +27,7 @@ As an extension of my initial Python exploration of MTG datasets, I created a Po
 
 ## [Project 3: PokédExcel](https://github.com/twissick/portfolio/blob/main/pokedexcel.xlsx)
 
-More disclosure time. I like Pokémon, too. I'm not very good at battles, but I love fishing for new, strange, unique, or unexpected builds that catch my opponents off guard. I put together this spreadsheet tool using Power Query, PokéAPI, and Microsoft Excel to find and filter Pokémon by moves, type, and ability to make interesting Pokémon Champions teams.
+I like Pokémon, too. I love fishing for new, strange, unique, or unexpected builds that catch my opponents off guard, so I put together this spreadsheet tool using Power Query, PokéAPI, and Microsoft Excel to find and filter Pokémon by moves, type, and ability to make interesting Pokémon Champions teams.
 
 <img width="2412" height="778" alt="Image" src="https://github.com/user-attachments/assets/fcdb3f43-461b-440d-adef-abc9b8cd6eba" />
 
