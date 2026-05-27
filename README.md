@@ -25,7 +25,7 @@ As an extension of my initial Python exploration of MTG datasets, I created a Po
 
 
 
-## [Project 3: PokedExcel]([https://github.com/twissick/portfolio/blob/main/mtg_dashboard.pbix](https://github.com/twissick/portfolio/blob/main/pokedexcel.xlsx))
+## [Project 3: PokedExcel](https://github.com/twissick/portfolio/blob/main/mtg_dashboard.pbix](https://github.com/twissick/portfolio/blob/main/pokedexcel.xlsx)
 
 More disclosure time. I like Pokemon, too. I'm not very good at battles, but I love fishing for new, strange, unique, or unexpected builds that catch my opponents off guard. I put together this spreadsheet tool using Power Query, PokeAPI, and Microsoft Excel to find and filter Pokemon by moves, type, and ability to make interesting Pokemon Champions teams.
 
