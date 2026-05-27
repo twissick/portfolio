@@ -1,8 +1,43 @@
 # Data Analysis: Work and Play
 
-Hello, and welcome! My name is TJ, and I'm crazy about finding ways to simplify life with data. As an analyst with over five years of experience, I'm constantly striving to apply data-driven thinking to all aspects of my life, both work and play. Below, you'll see a cross-section of some projects showcasing my data analysis skills (and a few of my hobbies).
+Welcome! My name is TJ, and I'm all about simplifying life through clever data use. As an analyst with over five years of experience, I'm constantly striving to apply data-driven thinking to all aspects of my life, both work and play. Below, you'll see a cross-section of some projects showcasing my data analysis skills (and a few of my hobbies).
 
-## [Project 1: Basic API Dashboard](https://github.com/twissick/portfolio/blob/main/index_dashboard.xlsm)
+
+## [Project 1 (Pt. 1): Magic: The Gathering API Exploration](https://github.com/twissick/portfolio/blob/main/MTG_API_Investigation.ipynb)
+
+Full disclosure — I really like Magic: The Gathering. I decided to build a Python API query that will let me read a dataframe into Power BI for visualization.
+
+<kbd>![mtg_api](https://user-images.githubusercontent.com/94941359/231886464-6e9954fa-ad4c-4024-b9e9-0ea781ef5cbb.png)</kbd>
+
+* Used Python to query Magic: The Gathering API service against cards in a CSV list
+* Explored card prices as preliminary investigation in tracking trends
+* Integrating all decks into a Power BI dashboard that will let me track trends across several card collections
+
+## [Project 1 (Pt. 2): Magic: The Gathering Dashboard](https://github.com/twissick/portfolio/blob/main/mtg_dashboard.pbix)
+
+As an extension of my initial Python exploration of MTG datasets, I created a Power BI dashboard that gives me visualized insights into my own deck building.
+
+<kbd>![mtg_dashboard](https://user-images.githubusercontent.com/94941359/232255847-116ab435-d3de-4e46-901f-0270f411ce18.png)</kbd>
+
+* Visualized wording trends in card text using word cloud
+* Tracking card prices based on distinct printings used in different decks
+* Check overall deck composition based on theme
+
+
+
+## [Project 3: PokedExcel]([https://github.com/twissick/portfolio/blob/main/mtg_dashboard.pbix](https://github.com/twissick/portfolio/blob/main/pokedexcel.xlsx))
+
+More disclosure time. I like Pokemon, too. I'm not very good at battles, but I love fishing for new, strange, unique, or unexpected builds that catch my opponents off guard. I put together this spreadsheet tool using Power Query, PokeAPI, and Microsoft Excel to find and filter Pokemon by moves, type, and ability to make interesting Pokemon Champions teams.
+
+<kbd>![mtg_dashboard](https://user-images.githubusercontent.com/94941359/232255847-116ab435-d3de-4e46-901f-0270f411ce18.png)</kbd>
+
+* Visualized wording trends in card text using word cloud
+* Tracking card prices based on distinct printings used in different decks
+* Check overall deck composition based on theme
+
+
+
+## [Project 4: Basic API Dashboard](https://github.com/twissick/portfolio/blob/main/index_dashboard.xlsm)
 
 <kbd>![dashboard](https://user-images.githubusercontent.com/94941359/230518289-05d9f005-51d8-4f23-95e8-24edd095775a.png)</kbd>
 
@@ -11,7 +46,7 @@ Hello, and welcome! My name is TJ, and I'm crazy about finding ways to simplify 
 
 
 
-## [Project 2: Recipe Database](https://github.com/twissick/portfolio/blob/main/recipe_db.sql)
+## [Project 5: Recipe Database](https://github.com/twissick/portfolio/blob/main/recipe_db.sql)
 
 I decided I wanted a better way to keep track of the food I ate. I was tired of looking for a new meal each week while wondering what I'd eaten, liked, or disliked. The result is what you see below: a database of all my recipes!
 
@@ -24,35 +59,15 @@ I decided I wanted a better way to keep track of the food I ate. I was tired of 
 
 
 
-## [Project 3: IBM Analytics Capstone — EDA with Data Visualization](https://github.com/twissick/portfolio/blob/main/EDA%20with%20Data%20Visualization.ipynb)
+## [Project 6: IBM Analytics Capstone — EDA with Data Visualization](https://github.com/twissick/portfolio/blob/main/EDA%20with%20Data%20Visualization.ipynb)
 
 <kbd>![capstone](https://user-images.githubusercontent.com/94941359/230519341-d98b92c7-8b79-47f4-ba26-110fd73e338f.png)</kbd>
 
 * Used Python pandas, matplotlib, and seaborn to generate graphs exploring SpaceX landings and launches
 * Explored success rates of various orbit types, as well as trends over time
 
-## [Project 4 (Pt. 1): Magic: The Gathering API Exploration](https://github.com/twissick/portfolio/blob/main/MTG_API_Investigation.ipynb)
 
-Full disclosure — I really like Magic: The Gathering. I decided to build a Python API query that will let me read a dataframe into Power BI for visualization.
-
-<kbd>![mtg_api](https://user-images.githubusercontent.com/94941359/231886464-6e9954fa-ad4c-4024-b9e9-0ea781ef5cbb.png)</kbd>
-
-* Used Python to query Magic: The Gathering API service against cards in a CSV list
-* Explored card prices as preliminary investigation in tracking trends
-* Integrating all decks into a Power BI dashboard that will let me track trends across several card collections
-
-## [Project 4 (Pt. 2): Magic: The Gathering Dashboard](https://github.com/twissick/portfolio/blob/main/mtg_dashboard.pbix)
-
-As an extension of my initial Python exploration of MTG datasets, I created a Power BI dashboard that gives me visualized insights into my own deck building.
-
-<kbd>![mtg_dashboard](https://user-images.githubusercontent.com/94941359/232255847-116ab435-d3de-4e46-901f-0270f411ce18.png)</kbd>
-
-* Visualized wording trends in card text using word cloud
-* Tracking card prices based on distinct printings used in different decks
-* Check overall deck composition based on theme
-* I may eventually integrate a way to track price history by determining price of card when purchased vs. current price
-
-## [Project 5: Translation Website](https://github.com/twissick/portfolio/blob/main/Website/homepage.html)
+## [Project 7: Translation Website](https://github.com/twissick/portfolio/blob/main/Website/homepage.html)
 
 I hold a Master's Degree in Translation Studies. One key part of this industry is marketing yourself, and in seeking to do so, I built my own website.
 
