@@ -42,6 +42,7 @@ More disclosure time. I like Pokémon, too. I'm not very good at battles, but I 
 <kbd>![dashboard](https://user-images.githubusercontent.com/94941359/230518289-05d9f005-51d8-4f23-95e8-24edd095775a.png)</kbd>
 
 * Created "one-stop" API-based dashboard to read key market indexes
+* Loaded market indexes using combination of HTML and API resources
 * Each tab contains exportable records for report building
 
 
@@ -54,8 +55,7 @@ I decided I wanted a better way to keep track of the food I ate. I was tired of 
 
 * Used PostgreSQL to model and create database containing all meals I've made in the last year
 * Lists ingredients, side dishes, date last made, etc.
-* Serves as centralized location for all meal prep, offering insights into diet and lifestyle
-* Soon to be integrated into Power BI dashboard to better interface with and visualize information
+* Used as centralized location for all meal prep, offering insights into diet and lifestyle
 
 
 
