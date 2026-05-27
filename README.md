@@ -25,15 +25,15 @@ As an extension of my initial Python exploration of MTG datasets, I created a Po
 
 
 
-## [Project 3: PokedExcel](https://github.com/twissick/portfolio/blob/main/pokedexcel.xlsx)
+## [Project 3: PokédExcel](https://github.com/twissick/portfolio/blob/main/pokedexcel.xlsx)
 
-More disclosure time. I like Pokemon, too. I'm not very good at battles, but I love fishing for new, strange, unique, or unexpected builds that catch my opponents off guard. I put together this spreadsheet tool using Power Query, PokeAPI, and Microsoft Excel to find and filter Pokemon by moves, type, and ability to make interesting Pokemon Champions teams.
+More disclosure time. I like Pokémon, too. I'm not very good at battles, but I love fishing for new, strange, unique, or unexpected builds that catch my opponents off guard. I put together this spreadsheet tool using Power Query, PokéAPI, and Microsoft Excel to find and filter Pokémon by moves, type, and ability to make interesting Pokémon Champions teams.
 
-<kbd>![mtg_dashboard](https://user-images.githubusercontent.com/94941359/232255847-116ab435-d3de-4e46-901f-0270f411ce18.png)</kbd>
+<kbd>![dexcel](<img width="2412" height="778" alt="image" src="https://github.com/user-attachments/assets/5e5f688c-3bbe-4bdb-8586-6f4b99fc5563" />)</kbd>
 
-* Visualized wording trends in card text using word cloud
-* Tracking card prices based on distinct printings used in different decks
-* Check overall deck composition based on theme
+* Loaded and transformed data from raw GitHub data using Power Query
+* Performed joins across datasets to determine Pokémon legal in Champions and the moves they can learn
+* Built plain-English interface to return lists of matching Pokémon, including their sprite image
 
 
 
